@@ -116,10 +116,29 @@ ul {
 }
 
 .custom-icon {
-
-    background-image: url('/img/derecha.svg'); 
-    background-repeat: no-repeat; 
+    background-image: url('/img/derecha.svg');
+    background-repeat: no-repeat;
     background-position: 4px 15px; 
     background-size: 24px 24px; 
     padding-left: 35px; 
+}
+
+.icon-link {
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    width: 24px; 
+    height: 24px; 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    text-indent: -9999px; 
+    overflow: hidden; 
+}
+
+.github-link {
+    background-image: url('/img/github.svg'); 
+}
+
+.whatsapp-link {
+    background-image: url('/img/whatsapp.svg'); 
 }
