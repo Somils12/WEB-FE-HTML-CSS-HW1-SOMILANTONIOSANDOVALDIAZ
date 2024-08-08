@@ -33,6 +33,7 @@ h3 {
     padding-top: 15px;
     padding-left: 60px;
     padding-bottom: 30px;
+    border-bottom:12px solid black;
 }
 
 .paddingMain {
@@ -40,6 +41,7 @@ h3 {
     padding-bottom: 30px;
     padding-left: 230px;
     padding-right: 25%;
+    border-bottom:12px solid black;
 }
 
 .paddingFooter {
@@ -102,4 +104,22 @@ h3 {
 
 .espacioItemExperiencia {
     padding-bottom: 10px;
+}
+
+.colorGrayMediumText {
+    color:rgb(215, 202, 186);
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.custom-icon {
+
+    background-image: url('/img/derecha.svg'); 
+    background-repeat: no-repeat; 
+    background-position: 4px 15px; 
+    background-size: 24px 24px; 
+    padding-left: 35px; 
 }
