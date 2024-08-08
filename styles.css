@@ -1,0 +1,88 @@
+* {
+    font-family:"LatoRegular";
+    color:black;
+    margin: 0;
+    line-height: 2.0;
+
+}
+
+p {
+    text-align: justify;
+    color:rgb(143,143,143)
+}
+
+span {
+    color:white;
+}
+main {
+    background-color: rgb(32, 30, 31);
+}
+
+header {
+    background-color: rgb(23, 23, 23);
+}
+
+footer {
+    background-color: rgb(45, 45, 45);
+}
+
+h1 {
+    color:rgb(215, 202, 186);
+    font-weight:bolder;
+    font-size: 52px;
+    
+}
+
+h2 {
+    color:rgb(209, 161, 89);
+}
+
+h3 {
+    color:rgb(155, 153, 154);
+}
+
+.paddingHeader {
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-bottom: 70px;
+}
+
+.paddingMain {
+    padding-top: 80px;
+    padding-left: 230px;
+    padding-right: 25%;
+}
+
+.paddingFooter {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.box-border-box {
+    box-sizing:border-box;
+
+}
+
+.espacioLetras3px {
+    letter-spacing: 5px;
+}
+
+.espacioLetras5px {
+    letter-spacing: 3px;
+}
+
+.boxFoto {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.imagen-derecha {
+    position: absolute;
+    top: 27%;
+    right: 3%;
+    transform: translateY(-50%);
+    max-width: 210px; 
+    border-radius: 50%;
+}
